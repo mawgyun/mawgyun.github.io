@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site.title }}</title>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <style>
         @import url('https://mmwebfonts.comquas.com/fonts/?font=yunghkio');
         body {
@@ -13,19 +20,60 @@
     </style>
 </head>
 <body>
-    <!--
-  Tailwind UI components require Tailwind CSS v1.8 and the @tailwindcss/ui plugin.
-  Read the documentation to get started: https://tailwindui.com/documentation
--->
-<div class="bg-white shadow overflow-hidden sm:rounded-lg">
-    <div class="px-4 py-5 border-b border-gray-200 sm:px-6">
-      <h3 class="text-lg leading-6 font-medium text-gray-900">
-        မော်လမြိုင်ကျွန်းမြို့နယ်
-      </h3>
-      <p class="mt-1 max-w-2xl text-sm leading-5 text-gray-500">
-        ဧရာဝတီတိုင်းဒေသကြီး
-      </p>
+<!-- As a heading -->
+<nav class="navbar navbar-light blue lighten-4">
+    <div class="container">
+        <span class="navbar-brand text-center">မော်လမြိုင်ကျွန်းမြို့နယ် 
+            <small class="text-muted">ဧရာဝတီတိုင်းဒေသကြီး</small>
+        </span>
     </div>
+</nav>
+
+<!--Main container-->
+<div class="container">
+        <div class="card m-2 border border-danger">
+            <div class="card-body">
+                (19-10-2020) 09:00 am ယနေ့ အတည်ပြုလူနာ ဒေးဒရဲ(၁၉) ကျုံပျော်(၇)မော်ကျွန်း(၆)လေးမျက်နှာ(၅) ဖျာပုံ(၁)ကျိုတ်လတ်(၁)
+                ဟင်္သာတ(၁) အိမ်မဲ(၁) ကန်ကြီးထာင့်(၁)
+            </div>
+          </div>
+        <div class="row m-2">
+            <div class="col-md-12">
+                <iframe width="100%" height="900px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQdBKglCvXP-0HF47yZyncF3FS567ahRBmY-Gjjm1R-2IRfof5_iG4ImtXK4AVL1Bn6oGML_TlOEIja/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            </div>
+        </div>
+
+    <!--Grid row-->
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-12">
+
+            <!-- Card -->
+                <div class="card m-2 border border-danger rounded-pill">
+                    <div class="card-body text-center">
+                    <!-- Title -->
+                    <h4 class="card-title"><a>COVID-19</a></h4>
+                    <!-- Text -->
+                    <p class="card-text"> မိမိကစ ကာကွယ်ပါ။ လူစု လူဝေးရှောင်ကြဉ်ပါ။</p>
+                    </div>
+                </div>
+            <!-- Card -->
+
+        </div>
+        <!--Grid column-->
+    </div>
+    <!--Grid row-->
 </div>
+<!--Main container-->
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 </body>
 </html>
